@@ -3,11 +3,11 @@
         <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="">
         <nav class="navbar__list">
             <ul>
-                <li><a class="text--darkBlue" href="<?php echo __ROOT__; ?>">Inicio</a></li>
-                <li><a class="text--darkBlue" href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
-                <li><a class="text--darkBlue" href="<?php echo __ROOT__; ?>servicios">Solicitud</a></li>
-                <li><a class="text--darkBlue" href="<?php echo __ROOT__; ?>servicios">Acerca</a></li>
-                <li><a class="text--darkBlue" href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
+                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>">Inicio</a></li>
+                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
+                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Solicitud</a></li>
+                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Acerca</a></li>
+                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
             </ul>
         </nav>
 
