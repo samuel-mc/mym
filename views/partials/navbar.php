@@ -11,7 +11,7 @@
             </ul>
         </nav>
 
-        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn-primary btn--darkblue">
+        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn-primary btn--darkblue px-4 py-2">
             Empezar
         </a>
     </div>

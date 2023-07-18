@@ -9,9 +9,16 @@
     --text-xl: 32px;
 
 }
-.btn{
+
+.btn {
     border-radius: 10px;
     padding: 2% 5%;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn--darkblue {
@@ -49,6 +56,7 @@
     border: none;
     color: var(--yellow);
 }
+
 .btn--square {
     height: 40px;
     width: 40px;
@@ -73,12 +81,13 @@
 .text--yellow {
     color: var(--yellow);
 }
+
 .text--gray {
     color: var(--gray);
 }
 
-.text--gray {
-    color: var(--text-gray);
+.text--white {
+    color: white;
 }
 
 .text--sm {
@@ -102,8 +111,43 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.grid--3cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.grid--4cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.w--50 {
+    width: 50%;
+}
+
+.bg--mediumBlue {
+    background-color: var(--medium-blue);
+}
+
 @media (max-width: 990px) {
     .grid--2cols {
+        grid-template-columns: 1fr;
+    }
+
+    .grid--4cols {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .w--50 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid--4cols {
         grid-template-columns: 1fr;
     }
 }

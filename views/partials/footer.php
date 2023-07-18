@@ -14,9 +14,10 @@
         </div>
         <div class="navbar__list">
             <ul class="flex">
-                <li class="m-3"><a target="_blank" class="a--darkBlue" href="https://www.facebook.com/EnCargoOLK?mibextid=LQQJ4d"><i class="fa-brands fa-square-facebook fa-2xl"></i></i></a></li>
-                <li class="m-3"><a target="_blank" class="a--darkBlue" href="https://instagram.com/encargo_olkb?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-                <li class="m-3"><a target="_blank" class="a--darkBlue" href="https://www.linkedin.com/in/encargo-olk-b65937249"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                <li class="m-2"><a target="_blank" class="a--darkBlue" href="https://www.instagram.com/marquezymoncadaui/"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                <li class="m-2"><a target="_blank" class="a--darkBlue" href="https://www.linkedin.com/in/m%C3%A1rquez-y-moncada-unidad-de-inspecci%C3%B3n/"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                <li class="m-2"><a target="_blank" class="a--darkBlue" href="https://www.facebook.com/M%C3%A1rquez-y-Moncada-UI-107009425367129/"><i class="fa-brands fa-square-facebook fa-2xl"></i></i></a></li>
+                <li class="m-2"><a target="_blank" class="a--darkBlue" href="https://www.tiktok.com/@marquezymoncadaui?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok fa-2xl"></i></i></a></li>
             </ul>
         </div>
     </div>
