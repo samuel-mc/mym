@@ -2,13 +2,16 @@
     --dark-blue: #182B61;
     --medium-blue: #475FA2;
     --yellow: #FFF212;
-    --text-gray: #6D7280;
-
+    --gray: #6D7280;
     --text-sm: 16px;
     --text-md: 20px;
     --text-lg: 24px;
     --text-xl: 32px;
 
+}
+.btn{
+    border-radius: 10px;
+    padding: 3% 5%;
 }
 
 .btn--darkblue {
@@ -35,6 +38,17 @@
     color: var(--medium-blue);
 }
 
+.btn--yellow {
+    background-color: var(--yellow);
+    border: none;
+    color: var(--dark-blue);
+}
+
+.btn--yellow:hover {
+    background-color: var(--dark-blue);
+    border: none;
+    color: var(--yellow);
+}
 .btn--square {
     height: 40px;
     width: 40px;
@@ -58,6 +72,9 @@
 
 .text--yellow {
     color: var(--yellow);
+}
+.text--gray {
+    color: var(--gray);
 }
 
 .text--gray {
