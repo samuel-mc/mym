@@ -82,5 +82,16 @@
             </div>
         </div>
     </section>
+    <section class="container grid--2cols align-items-center">
+        <div class="p-4 text-center">
+            <img src="<?php echo __ROOT__; ?>/public/img/home/libera.png" class="w-75">
+        </div>
+        <div class="text--darkBlue p-5">
+            <h3>¡Libera tu mercancía de aduana en 24 horas o menos!</h3>
+            <p>
+                Ahorra tiempo y recursos en tus operaciones comerciales y dile adiós a las multas, sanciones, almacenajes y demoras
+            </p>
+        </div>
+    </section>
 </main>
 <?php include 'partials/footer.php'; ?>
