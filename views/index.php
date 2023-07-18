@@ -93,5 +93,46 @@
             </p>
         </div>
     </section>
+    <div class="container py-4">
+        <header class="text-center">
+            <h2 class="text--darkBlue fw-bold">Normas de seguridad</h2>
+            <p class="text--sm text--gray">
+                Son regulaciones técnicas que establecen los requisitos mínimos para garantizar la seguridad y calidad de los productos y servicios en México.
+            </p>
+        </header>
+
+        <body>
+
+            <div class="row">
+                <div class="col card normas__card p-3">
+                    <div class="card__front">
+                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon1.png" class="mb-3">
+                        <h4 class="text--darkBlue">NOM-001-SCFI-2018</h3>
+                            <p class="text--gray text-md">Aparatos electrónicos</p>
+                    </div>
+                    <div class="card__content d-flex align-items-center">
+                        <p class="card__title"></p>
+                        <p class="card__description">
+                            Aparatos electrónicos-requisitos de seguridad y métodos de prueba
+                        </p>
+                    </div>
+                </div>
+                <div class="col card normas__card p-3">
+                    <div class="card__front">
+                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon2.png" class="mb-3">
+                        <h4 class="text--darkBlue">NOM-003-SCFI-2014</h3>
+                            <p class="text--gray text-md">Productos eléctricos</p>
+                    </div>
+                    <div class="card__content d-flex align-items-center">
+                        <p class="card__title"></p>
+                        <p class="card__description">
+                            Productos eléctricos-Especificaciones de seguridad
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+
+    </div>
 </main>
 <?php include 'partials/footer.php'; ?>

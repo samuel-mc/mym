@@ -2,6 +2,7 @@
     --dark-blue: #182B61;
     --medium-blue: #475FA2;
     --yellow: #FFF212;
+    --text-gray: #6D7280;
 
     --text-sm: 16px;
     --text-md: 20px;
@@ -57,6 +58,10 @@
 
 .text--yellow {
     color: var(--yellow);
+}
+
+.text--gray {
+    color: var(--text-gray);
 }
 
 .text--sm {
