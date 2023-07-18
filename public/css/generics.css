@@ -78,10 +78,9 @@
 .grid--2cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
     .grid--2cols {
         grid-template-columns: 1fr;
     }
