@@ -110,3 +110,14 @@ html {
     width: 40px;
 }
 
+.text--darkBlue {
+    color: var(--dark-blue) !important;
+}
+
+.text--darkBlue:hover {
+    color: var(--medium-blue) !important;
+}
+
+.text--mediumBlue {
+    color: var(--medium-blue);
+}

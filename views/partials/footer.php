@@ -1,26 +1,25 @@
-<footer class="bg-white p-4 py-8">
-    <div class="d-flex">
+<footer class="container-xl py-2">
+    <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
         <div class="">
             <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="logo de la empresa">
         </div>
-        <div class="">
-            <ul class="d-flex">
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>">Inicio</a></li>
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>servicios">Solicitud</a></li>
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>servicios">Acerca</a></li>
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
+        <div class="navbar__list">
+            <ul class="flex-row flex-wrap align-items-center">
+                <li class="my-3 mx-3"><a class="text--darkBlue" href="<?php echo __ROOT__; ?>">Inicio</a></li>
+                <li class="my-3 mx-3"><a class="text--darkBlue" href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
+                <li class="my-3 mx-3"><a class="text--darkBlue" href="<?php echo __ROOT__; ?>servicios">Solicitud</a></li>
+                <li class="my-3 mx-3"><a class="text--darkBlue" href="<?php echo __ROOT__; ?>servicios">Acerca</a></li>
+                <li class="my-3 mx-3"><a class="text--darkBlue" href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
             </ul>
         </div>
-        <div class="">
+        <div class="navbar__list">
             <ul class="flex">
-                <li class="m-3"><a target="_blank" href="https://www.facebook.com/EnCargoOLK?mibextid=LQQJ4d"><i class="fa-brands fa-square-facebook fa-2xl"></i></i></a></li>
-                <li class="m-3"><a target="_blank" href="https://instagram.com/encargo_olkb?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-                <li class="m-3"><a target="_blank" href="https://www.linkedin.com/in/encargo-olk-b65937249"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                <li class="m-3"><a target="_blank" class="text--darkBlue" href="https://www.facebook.com/EnCargoOLK?mibextid=LQQJ4d"><i class="fa-brands fa-square-facebook fa-2xl"></i></i></a></li>
+                <li class="m-3"><a target="_blank" class="text--darkBlue" href="https://instagram.com/encargo_olkb?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                <li class="m-3"><a target="_blank" class="text--darkBlue" href="https://www.linkedin.com/in/encargo-olk-b65937249"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
             </ul>
         </div>
     </div>
-    <p class="text-grey_text text-center">© 2023. All Rights Reserved.</p>
 </footer>
 
 </body>
