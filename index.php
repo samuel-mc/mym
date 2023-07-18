@@ -5,8 +5,8 @@ require 'flight/Flight.php';
 # Debug errors
 Flight::set('flight.log_errors', true);
 # Root route
-define('__ROOT__', "http://localhost/mym/");
-#define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/mym/");
+#define('__ROOT__', "http://localhost/mym/");
+define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/mym/");
 
 
 Flight::route('/', function () {

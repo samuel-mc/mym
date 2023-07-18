@@ -160,5 +160,11 @@
             </div>
         </div>
     </section>
+    <section id="bannerContactanos" style="background-color: var(--medium-blue);" class="text-center p-4">
+        <h2 class="text-white my-4">¡No lo pienses, contáctanos!</h2>
+        <button class="btn btn--yellow">
+            <label class="m-0">Empezar <i class="fa-solid fa-arrow-right"></i></label>
+        </button>
+    <section>    
 </main>
 <?php include 'partials/footer.php'; ?>
