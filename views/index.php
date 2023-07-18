@@ -82,5 +82,34 @@
             </div>
         </div>
     </section>
+
+    <section id="OtrosServiciosHome" class="container my-4">
+        <div class="text-center font-bold">
+            <h2 class="text--darkBlue"><b>Otros Servicios</b></h2>
+            <p class="text--gray">
+                Ampliamos nuestros servicios adicionales integrados a tus operaciones comerciales con el objetivo de optimizar la eficiencia y maximizar la utilización de recursos, lo que resulta en una reducción significativa de tiempos y costos
+            </p>
+        </div>
+        <div class="grid--2cols text-center">
+            <div>
+                <img class="rounded-lg"  src="<?php echo __ROOT__; ?>/public/img/home/etiquetado.png">
+                <h3><b>Etiquetado</b></h3>
+                <p class="text--gray">Diseño y colocación de etiquetas adheribles y textiles.</p>
+                <button class="btn btn--yellow">
+                    <label class="m-0">Cononce más <i class="fa-solid fa-arrow-right"></i></label>
+                </button>
+            </div>
+            <div>
+                <img class="rounded-lg" src="<?php echo __ROOT__; ?>/public/img/home/capacitaciones.png">
+                <h3><b>Capacitaciones</b></h3>
+                <p class="text--gray">No te pierdas las capacitaciones de U.V. Márquez y Moncada para mantenerte al tanto de las actualizaciones de las NOM y más.</p>
+                <button class="btn btn--yellow">
+                    <label class="m-0">Cononce más <i class="fa-solid fa-arrow-right"></i></label>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
 </main>
 <?php include 'partials/footer.php'; ?>
