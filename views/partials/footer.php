@@ -14,19 +14,19 @@
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Solicitud
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>solicitud">Solicitud
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Acerca
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>acerca">Acerca
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>#contacto">Contacto
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>contacto">Contacto
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>#contacto">Preguntas frecuentes
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>pregutnas">Preguntas frecuentes
                     </a>
                 </li>
                 <li class="my-3 mx-3">

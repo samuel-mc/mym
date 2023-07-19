@@ -5,9 +5,9 @@
             <ul>
                 <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>">Inicio</a></li>
                 <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
-                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Solicitud</a></li>
-                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Acerca</a></li>
-                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
+                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>solicitud">Solicitud</a></li>
+                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>acerca">Acerca</a></li>
+                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>contacto">Contacto</a></li>
             </ul>
         </nav>
 
@@ -37,9 +37,9 @@
             <ul class="flex-column">
                 <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>">Inicio</a></li>
                 <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
-                <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>servicios">Solicitud</a></li>
-                <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>servicios">Acerca</a></li>
-                <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
+                <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>solicitud">Solicitud</a></li>
+                <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>acerca">Acerca</a></li>
+                <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>contacto">Contacto</a></li>
             </ul>
         </nav>
 
