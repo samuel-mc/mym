@@ -405,14 +405,14 @@
     </section>
     <section id="OtrosServiciosHome" class="container my-4">
         <div class="text-center font-bold">
-            <h2 class="text--darkBlue fw-bold">Otros Servicios</h2>
+            <h2 class="text--darkBlue font-weight-bold">Otros Servicios</h2>
             <p class="text--gray">
                 Ampliamos nuestros servicios adicionales integrados a tus operaciones comerciales con el objetivo de optimizar la eficiencia y maximizar la utilización de recursos, lo que resulta en una reducción significativa de tiempos y costos
             </p>
         </div>
         <div class="grid--2cols text-center">
             <div class="my-4">
-                <img class="rounded-lg w-50" src="<?php echo __ROOT__; ?>/public/img/home/etiquetado.png">
+                <img class="rounded-lg" src="<?php echo __ROOT__; ?>/public/img/home/etiquetado.png">
                 <h3><b>Etiquetado</b></h3>
                 <p class="text--gray">Diseño y colocación de etiquetas adheribles y textiles.</p>
                 <a href="#" class="btn btn--yellow px-5 py-3 m-2">
@@ -420,7 +420,7 @@
                 </a>
             </div>
             <div class="my-4">
-                <img class="rounded-lg w-50" src="<?php echo __ROOT__; ?>/public/img/home/capacitaciones.png">
+                <img class="rounded-lg" src="<?php echo __ROOT__; ?>/public/img/home/capacitaciones.png">
                 <h3><b>Capacitaciones</b></h3>
                 <p class="text--gray">No te pierdas las capacitaciones de U.V. Márquez y Moncada para mantenerte al tanto de las actualizaciones de las NOM y más.</p>
                 <a href="#" class="btn btn--yellow px-5 py-3 m-2">
@@ -429,11 +429,6 @@
             </div>
         </div>
     </section>
-    <section id="bannerContactanos" style="background-color: var(--medium-blue);" class="text-center p-4">
-        <h2 class="text-white my-4">¡No lo pienses, contáctanos!</h2>
-        <a href="#" class="btn btn--yellow px-5 py-3 m-2 fw-bold">
-            Empezar <i class="fa-solid fa-arrow-right mx-1"></i>
-        </a>
-        <section>
+    <?php include 'components/bannerContacto.php'; ?>
 </main>
 <?php include 'partials/footer.php'; ?>

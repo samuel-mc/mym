@@ -10,7 +10,7 @@
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Servicios
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicio">Servicios
                     </a>
                 </li>
                 <li class="my-3 mx-3">

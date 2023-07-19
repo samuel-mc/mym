@@ -13,4 +13,10 @@
     <title>Home</title>
 </head>
 
-<body class="bg-white">
+  <style>
+    .bg--image {
+      background-image: url('<?php echo __ROOT__; ?>/public/img/home/carouselBg.png');
+      background-size: contain;
+    }
+  </style>
+<body class="bg-white" >

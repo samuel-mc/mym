@@ -136,6 +136,7 @@
     background-color: var(--medium-blue);
 }
 
+
 @media (max-width: 990px) {
     .grid--2cols {
         grid-template-columns: 1fr;
