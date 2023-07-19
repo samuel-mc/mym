@@ -1,15 +1,39 @@
-<footer class="container-xl py-2">
+<footer class="container-fluid maxw--1280 py-2">
     <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
         <div class="">
             <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="logo de la empresa">
         </div>
         <div class="navbar__list">
             <ul class="flex-row flex-wrap align-items-center">
-                <li class="my-3 mx-3"><a class="a--darkBlue" href="<?php echo __ROOT__; ?>">Inicio</a></li>
-                <li class="my-3 mx-3"><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
-                <li class="my-3 mx-3"><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Solicitud</a></li>
-                <li class="my-3 mx-3"><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Acerca</a></li>
-                <li class="my-3 mx-3"><a class="a--darkBlue" href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
+                <li class="my-3 mx-3">
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>">Inicio
+                    </a>
+                </li>
+                <li class="my-3 mx-3">
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Servicios
+                    </a>
+                </li>
+                <li class="my-3 mx-3">
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Solicitud
+                    </a>
+                </li>
+                <li class="my-3 mx-3">
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicios">Acerca
+                    </a>
+                </li>
+                <li class="my-3 mx-3">
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>#contacto">Contacto
+                    </a>
+                </li>
+                <li class="my-3 mx-3">
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>#contacto">Preguntas frecuentes
+                    </a>
+                </li>
+                <li class="my-3 mx-3">
+                    <a class="a--darkBlue" href="https://jumpshare.com/v/o8pcODbKJASSs5uhOqF7" target="_blank">
+                        Aviso de privacidad
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="navbar__list">
@@ -54,4 +78,5 @@
 
     carouselHome.mount();
 </script>
+
 </html>
