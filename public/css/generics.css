@@ -124,6 +124,16 @@
     gap: 12px;
 }
 
+.gap-2{
+    display: grid;
+    gap: 12px;
+}
+
+.gap-8{
+    display: grid;
+    gap: 48px;
+}
+
 .w--50 {
     width: 50%;
 }
