@@ -86,161 +86,41 @@
         <div class="p-4 text-center">
             <img src="<?php echo __ROOT__; ?>/public/img/home/libera.png" class="w-75">
         </div>
-        <div class="text--darkBlue p-5">
+        <div class="text--darkBlue p-1 p-lg-5">
             <h3>¡Libera tu mercancía de aduana en 24 horas o menos!</h3>
             <p>
                 Ahorra tiempo y recursos en tus operaciones comerciales y dile adiós a las multas, sanciones, almacenajes y demoras
             </p>
         </div>
     </section>
-    <section class="container py-4 bg--mediumBlue">
-        <header class="text-center text--white mb-5 w--50 mx-auto">
-            <h2 class="fw-bold mb-4">Unidad de inspección</h2>
-            <p class="text--md">
-                Normas de información comercial
-            </p>
-            <p class="text--sm">
-                Determinan la información comercial y requisitos que deben cumplir las etiquetas, envases, embalajes para dar información al consumidor
-            </p>
-        </header>
-
-        <body>
-            <div class="grid--3cols">
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon1.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-004-SE-2021</h4>
-                        <p class="text--gray text-md">Ropa y Textiles</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Información comercial-Etiquetado de productos textiles, prendas de vestir, sus accesorios y ropa de casa
-                        </p>
-                    </div>
+    <section class="container-fluid py-4 bg--mediumBlue">
+        <div class="container">
+            <header class="text-center text--white mb-5 w--50 mx-auto">
+                <h2 class="fw-bold mb-4">Unidad de inspección</h2>
+                <p class="text--md">
+                    Normas de información comercial
+                </p>
+                <p class="text--sm">
+                    Determinan la información comercial y requisitos que deben cumplir las etiquetas, envases, embalajes para dar información al consumidor
+                </p>
+            </header>
+            <?php include 'components/cardsInspeccion.php'; ?>
+            <footer class="text-center m-4">
+                <div class="row justify-content-center">
+                    <a href="<?php echo __ROOT__; ?>servicio" class="btn btn--yellow px-5 py-3 m-2">
+                        Cononce más <i class="fa-solid fa-arrow-right mx-1"></i>
+                    </a>
+                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                        Solicitar servicio <i class="fa-solid fa-arrow-right mx-1"></i>
+                    </a>
                 </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon2.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-015-SCFI-2007</h4>
-                        <p class="text--gray text-md">Juguetes</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Información comercial-Etiquetado para juguetes.
-                        </p>
-                    </div>
+                <div class="row justify-content-center">
+                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                        Consulta catálogo de NOMs y NMX <i class="fa-solid fa-arrow-right mx-1"></i>
+                    </a>
                 </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon3.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-020-SCFI-1997</h4>
-                        <p class="text--gray text-md">Cueros y pieles</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Información comercial-Etiquetado de cueros y pieles curtidas naturales y materiales sintéticos o artificiales con esa apariencia, calzado, marroquinería, así como los productos elaborados con dichos materiales.
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon4.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-024-SCFI-2013</h4>
-                        <p class="text--gray text-md">Electrónica</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Información comercial para empaques, instructivos y garantías de los productos electrónicos, eléctricos y electrodomésticos.
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon5.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-050-SCFI-2004</h4>
-                        <p class="text--gray text-md">Productos generales</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Información comercial-Etiquetado general de productos.
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon6.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-051-SCFI/SSA1-2010</h4>
-                        <p class="text--gray text-md">Alimentos y bebidas no alcohólicas</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Especificaciones generales de etiquetado para alimentos y bebidas no alcohólicas preenvasados-información comercial y sanitaria.
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon7.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-141-SSA1/SCFI-2012</h4>
-                        <p class="text--gray text-md">Cosméticos</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Etiquetado para productos cosméticos preenvasados. Etiquetado sanitario y comercial
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon8.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-142-SSA1/SCFI-2014</h4>
-                        <p class="text--gray text-md">Bebidas alcohólicas</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Bebidas alcohólicas. Especificaciones sanitarias. Etiquetado sanitario y comercial.
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon9.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-189-SSA1/SCFI-2018</h4>
-                        <p class="text--gray text-md">Artículos domésticos</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Productos y servicios. Etiquetado y envasado para productos de aseo de uso doméstico.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </body>
-        <footer class="text-center m-4">
-            <div class="row justify-content-center">
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
-                    Cononce más <i class="fa-solid fa-arrow-right mx-1"></i>
-                </a>
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
-                    Solicitar servicio <i class="fa-solid fa-arrow-right mx-1"></i>
-                </a>
-            </div>
-            <div class="row justify-content-center">
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
-                    Consulta catálogo de NOMs y NMX <i class="fa-solid fa-arrow-right mx-1"></i>
-                </a>
-            </div>
-        </footer>
-
+            </footer>
+        </div>
     </section>
     <section class="container py-4">
         <header class="text-center mb-5 w--50 mx-auto">
@@ -388,7 +268,7 @@
         </body>
         <footer class="text-center m-4">
             <div class="row justify-content-center">
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                <a href="<?php echo __ROOT__; ?>normas" class="btn btn--yellow px-5 py-3 m-2">
                     Cononce más <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
                 <a href="#" class="btn btn--yellow px-5 py-3 m-2">
@@ -401,7 +281,6 @@
                 </a>
             </div>
         </footer>
-
     </section>
     <section id="OtrosServiciosHome" class="container my-4">
         <div class="text-center font-bold">
@@ -412,7 +291,7 @@
         </div>
         <div class="grid--2cols text-center">
             <div class="my-4">
-                <img class="rounded-lg" src="<?php echo __ROOT__; ?>/public/img/home/etiquetado.png">
+                <img class="rounded-lg w-75 mx-auto" src="<?php echo __ROOT__; ?>/public/img/home/etiquetado.png">
                 <h3><b>Etiquetado</b></h3>
                 <p class="text--gray">Diseño y colocación de etiquetas adheribles y textiles.</p>
                 <a href="#" class="btn btn--yellow px-5 py-3 m-2">
@@ -420,7 +299,7 @@
                 </a>
             </div>
             <div class="my-4">
-                <img class="rounded-lg" src="<?php echo __ROOT__; ?>/public/img/home/capacitaciones.png">
+                <img class="rounded-lg w-75 mx-auto" src="<?php echo __ROOT__; ?>/public/img/home/capacitaciones.png">
                 <h3><b>Capacitaciones</b></h3>
                 <p class="text--gray">No te pierdas las capacitaciones de U.V. Márquez y Moncada para mantenerte al tanto de las actualizaciones de las NOM y más.</p>
                 <a href="#" class="btn btn--yellow px-5 py-3 m-2">

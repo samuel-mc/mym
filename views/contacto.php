@@ -17,7 +17,7 @@
                 </div>
                 <div>
                     <img class="rounded-lg img-fluid pr-2" src="<?php echo __ROOT__; ?>/public/img/contacto/email.png">
-                    <spam>administracionae@marquezymoncada.com</spam>
+                    <spam class="long--text">administracionae@marquezymoncada.com</spam>
                 </div>
             </div>
             <div>

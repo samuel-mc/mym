@@ -22,14 +22,14 @@
         </div>
         <div class="text-center py-4">
             <h1 class="font-weight-bold text--darkBlue">Descargar los siguientes documentos</h1>
-            <div class="grid--3cols">
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+            <div class="grid--3cols justify-items--center">
+                <a href="#" class="btn btn--yellow px-5 py-3 w--fit">
                     Contrato <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                <a href="#" class="btn btn--yellow px-5 py-3 w--fit">
                     SSI <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                <a href="#" class="btn btn--yellow px-5 py-3 w--fit">
                     Contrato <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
             </div>
@@ -37,7 +37,7 @@
         <div class="text-center py-4">
             <h1 class="font-weight-bold text--darkBlue">Envianos los documentos al siguiente correo</h1>
             <div class="text-center mx-0 px-0 mx-lg-5 px-lg-5">
-                <p class="bg--mediumBlue px-5 py-3 my-2 mx-0 w-full text--white rounded-lg">
+                <p class="bg--mediumBlue px-5 py-3 my-2 mx-0 w-full text--white rounded-lg long--text">
                     alejandraae@marquezymoncada.com
                 </p>
             </div>
