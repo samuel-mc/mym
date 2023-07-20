@@ -4,14 +4,14 @@
         <nav class="navbar__list">
             <ul>
                 <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>">Inicio</a></li>
-                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>servicio">Servicios</a></li>
+                <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>#unidadDeInspeccion">Servicios</a></li>
                 <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>solicitud">Solicitud</a></li>
                 <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>acerca">Acerca</a></li>
                 <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>contacto">Contacto</a></li>
             </ul>
         </nav>
 
-        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn-primary btn--darkblue px-4 py-2">
+        <a href="<?php echo __ROOT__; ?>contacto" class="btn btn-primary btn--darkblue px-4 py-2">
             Empezar
         </a>
     </div>
@@ -36,14 +36,14 @@
         <nav class="navbar__list my-5">
             <ul class="flex-column">
                 <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>">Inicio</a></li>
-                <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>servicio">Servicios</a></li>
+                <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>#unidadDeInspeccion">Servicios</a></li>
                 <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>solicitud">Solicitud</a></li>
                 <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>acerca">Acerca</a></li>
                 <li class="my-3"><a class="h4 text-white" href="<?php echo __ROOT__; ?>contacto">Contacto</a></li>
             </ul>
         </nav>
 
-        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn-primary btn--mediumblue">
+        <a href="<?php echo __ROOT__; ?>contacto" class="btn btn-primary btn--mediumblue">
             Empezar
         </a>
 

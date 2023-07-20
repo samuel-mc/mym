@@ -160,16 +160,11 @@
             </body>
             <footer class="text-center m-4">
                 <div class="row justify-content-center">
-                    <a href="<?php echo __ROOT__; ?>normas" class="btn btn--yellow px-5 py-3 m-2">
-                        Cononce más <i class="fa-solid fa-arrow-right mx-1"></i>
-                    </a>
-                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
-                        Solicitar servicio <i class="fa-solid fa-arrow-right mx-1"></i>
-                    </a>
-                </div>
-                <div class="row justify-content-center">
-                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                    <a href="<?php echo __ROOT__; ?>landingNom" class="btn btn--yellow px-5 py-3 m-2">
                         Consulta catálogo de NOMs y NMX <i class="fa-solid fa-arrow-right mx-1"></i>
+                    </a>
+                    <a href="<?php echo __ROOT__; ?>solicitud" class="btn btn--yellow px-5 py-3 m-2">
+                        Iniciar solicitud <i class="fa-solid fa-arrow-right mx-1"></i>
                     </a>
                 </div>
             </footer>
@@ -184,46 +179,7 @@
                     Los documentos solicitados para el proceso de certificación son los siguientes
                 </p>
             </header>
-            <body>
-                <div class="grid--3cols">
-                    <div class="card normas__card p-3">
-                        <div class="">
-                            <img src="<?php echo __ROOT__; ?>/public/img/normas/muestra.png" class="mb-3">
-                            <h4 class="text--darkBlue">Muestra física</h4>
-                        </div>
-                    </div>
-                    <div class="card normas__card p-3">
-                        <div class="">
-                            <img src="<?php echo __ROOT__; ?>/public/img/normas/diagrama.png" class="mb-3">
-                            <h4 class="text--darkBlue">Diagrama eléctrico</h4>
-                        </div>
-                    </div>
-                    <div class="card normas__card p-3">
-                        <div class="">
-                            <img src="<?php echo __ROOT__; ?>/public/img/normas/manual.png" class="mb-3">
-                            <h4 class="text--darkBlue">Manual o instructivo en español</h4>
-                        </div>
-                    </div>
-                    <div class="card normas__card p-3">
-                        <div class="">
-                            <img src="<?php echo __ROOT__; ?>/public/img/normas/contrato.png" class="mb-3">
-                            <h4 class="text--darkBlue">Contrato con OC</h4>
-                        </div>
-                    </div>
-                    <div class="card normas__card p-3">
-                        <div class="">
-                            <img src="<?php echo __ROOT__; ?>/public/img/normas/reglamento.png" class="mb-3">
-                            <h4 class="text--darkBlue">Reglamento de OC</h4>
-                        </div>
-                    </div>
-                    <div class="card normas__card p-3">
-                        <div class="">
-                            <img src="<?php echo __ROOT__; ?>/public/img/normas/documentos.png" class="mb-3">
-                            <h4 class="text--darkBlue">Documentos legales de la empresa importadora</h4>
-                        </div>
-                    </div>
-                </div>
-            </body>
+            <?php include 'components/cardsNormas.php'; ?>
         </section>
     </section>
     <section id="procesoCertificacion" class="container my-4">

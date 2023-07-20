@@ -5,11 +5,11 @@
 
     <section class="container py-5">
         <div class="text-center w--50 mx-auto">
-            <h2 class="text--darkBlue fw-bold">Optimiza tus etiquetas de información comercial</h2>
+            <h2 class="text--xl text--darkBlue fw-bold">Optimiza tus etiquetas de información comercial</h2>
         </div>
     </section>
     <section class="container grid--2cols align-items-center">
-        <div class="p-4 text-center">
+        <div class="p-1 text-center">
             <img src="<?php echo __ROOT__; ?>/public/img/landing/etiqueta1.png" class="w-75">
         </div>
         <div class="text--darkBlue p-1 p-lg-5">
@@ -32,17 +32,17 @@
                 </div>
             </div>
         </div>
-        <div class="p-4 text-center">
+        <div class="p-1 text-center">
             <img src="<?php echo __ROOT__; ?>/public/img/landing/etiqueta2.png" class="w-75">
         </div>
     </section>
     <section class="container grid--2cols align-items-center">
-        <div class="p-4 text-center">
+        <div class="p-1 text-center">
             <img src="<?php echo __ROOT__; ?>/public/img/landing/etiqueta3.png" class="w-75">
         </div>
         <div class="text--darkBlue p-1 p-lg-5">
             <h3 class="mb-4">Colocación de etiqueta</h3>
-            <p>
+            <p class="text--md text--darkBlue">
                 Nuestro equipo experto se encarga de agilizar el proceso de etiquetado de tu mercancía, asegurando eficiencia y precisión.
             </p>
         </div>

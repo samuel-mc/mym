@@ -55,7 +55,7 @@
 <script src="<?php echo __ROOT__; ?>/public/js/carousel/dist/js/splide.min.js"></script>
 <script>
     const carouselHome = new Splide('#carouselHome', {
-        //autoplay: true,
+        autoplay: true,
         type: 'loop',
         gap: '1.6rem',
         perPage: 1,

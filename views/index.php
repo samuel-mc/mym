@@ -12,7 +12,7 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <img src="<?php echo __ROOT__; ?>/public/img/home/carousel1.png" class="w-100 h-100">
+                        <img src="<?php echo __ROOT__; ?>/public/img/home/carousel1.png" class="w-100 h-100 of--cover">
                     </li>
                     <li class="splide__slide position-relative">
                         <div class="position-absolute p-4 text-center">
@@ -93,7 +93,7 @@
             </p>
         </div>
     </section>
-    <section class="container-fluid py-4 bg--mediumBlue">
+    <section class="container-fluid py-5 bg--mediumBlue" id="unidadDeInspeccion">
         <div class="container">
             <header class="text-center text--white mb-5 w--50 mx-auto">
                 <h2 class="fw-bold mb-4">Unidad de inspección</h2>
@@ -108,14 +108,14 @@
             <footer class="text-center m-4">
                 <div class="row justify-content-center">
                     <a href="<?php echo __ROOT__; ?>servicio" class="btn btn--yellow px-5 py-3 m-2">
-                        Cononce más <i class="fa-solid fa-arrow-right mx-1"></i>
+                        Conoce más <i class="fa-solid fa-arrow-right mx-1"></i>
                     </a>
-                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                    <a href="<?php echo __ROOT__; ?>solicitud" class="btn btn--yellow px-5 py-3 m-2">
                         Solicitar servicio <i class="fa-solid fa-arrow-right mx-1"></i>
                     </a>
                 </div>
                 <div class="row justify-content-center">
-                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                    <a href="<?php echo __ROOT__; ?>landingNom" class="btn btn--yellow px-5 py-3 m-2">
                         Consulta catálogo de NOMs y NMX <i class="fa-solid fa-arrow-right mx-1"></i>
                     </a>
                 </div>
@@ -130,153 +130,19 @@
             </p>
         </header>
 
-        <body>
-            <div class="grid--4cols">
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon1.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-001-SCFI-2018</h4>
-                        <p class="text--gray text-md">Aparatos electrónicos</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Aparatos electrónicos-requisitos de seguridad y métodos de prueba
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon2.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-003-SCFI-2014</h4>
-                        <p class="text--gray text-md">Productos eléctricos</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center text-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Productos eléctricos-Especificaciones de seguridad
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon3.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-016-SCFI-1993</h4>
-                        <p class="text--gray text-md">Aparatos de oficina</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center text-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Aparatos electrónicos de uso en oficina y alimentados por diferentes fuentes de energía eléctrica
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon4.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-019-SCFI-1998</h4>
-                        <p class="text--gray text-md">Procesamiento de datos</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center text-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Seguridad de equipo de procesamiento de datos (Computo)
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid--3cols">
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon5.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-208-SCFI-2016</h4>
-                        <p class="text--gray text-md">Radiocomunicación</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Sistemas de radiocomunicación que emplean la técnica de espectro disperso-Equipos de radiocomunicación por salto de frecuencia y por modulación digital (WIFI- Bluetooth)
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon6.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-030-ENER-2016</h4>
-                        <p class="text--gray text-md">Eficiencia luminosa LED</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Eficacia luminosa de lámparas de diodos emisores de luz (led) integradas para iluminación general
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon7.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-031-ENER-2019</h4>
-                        <p class="text--gray text-md">LED vialidades y exteriores</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Eficiencia energética para luminarios con led para iluminación de vialidades y áreas exteriores públicas
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon8.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-029-ENER-2017</h4>
-                        <p class="text--gray text-md">Luminarios</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Eficiencia energética de fuentes de alimentación externa (Luminarios)
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon9.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-064-SCFI-2000</h4>
-                        <p class="text--gray text-md">Eléctricos-luminarios</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Productos eléctricos-Luminarios para uso en interiores y exteriores
-                        </p>
-                    </div>
-                </div>
-                <div class="card normas__card p-3">
-                    <div class="card__front">
-                        <img src="<?php echo __ROOT__; ?>/public/img/normas/icon10.png" class="mb-3">
-                        <h4 class="text--darkBlue">NOM-186-SSA1/SCFI-2013</h4>
-                        <p class="text--gray text-md">Chocolate</p>
-                    </div>
-                    <div class="card__content d-flex align-items-center">
-                        <p class="card__title"></p>
-                        <p class="card__description">
-                            Cacao, chocolate y productos similares, y derivados del cacao. Especificaciones sanitarias
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </body>
+        <?php include 'components/cardsNormas.php'; ?>
+
         <footer class="text-center m-4">
             <div class="row justify-content-center">
                 <a href="<?php echo __ROOT__; ?>normas" class="btn btn--yellow px-5 py-3 m-2">
-                    Cononce más <i class="fa-solid fa-arrow-right mx-1"></i>
+                    Conoce más <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                <a href="<?php echo __ROOT__; ?>solicitud" class="btn btn--yellow px-5 py-3 m-2">
                     Solicitar servicio <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
             </div>
             <div class="row justify-content-center">
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                <a href="<?php echo __ROOT__; ?>landingNom" class="btn btn--yellow px-5 py-3 m-2">
                     Consulta catálogo de NOMs y NMX <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
             </div>
@@ -294,16 +160,16 @@
                 <img class="rounded-lg w-75 mx-auto" src="<?php echo __ROOT__; ?>/public/img/home/etiquetado.png">
                 <h3><b>Etiquetado</b></h3>
                 <p class="text--gray">Diseño y colocación de etiquetas adheribles y textiles.</p>
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
-                    Cononce más <i class="fa-solid fa-arrow-right mx-1"></i>
+                <a href="<?php echo __ROOT__; ?>landingEtiqueta" class="btn btn--yellow px-5 py-3 m-2">
+                    Conoce más <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
             </div>
             <div class="my-4">
                 <img class="rounded-lg w-75 mx-auto" src="<?php echo __ROOT__; ?>/public/img/home/capacitaciones.png">
                 <h3><b>Capacitaciones</b></h3>
                 <p class="text--gray">No te pierdas las capacitaciones de U.V. Márquez y Moncada para mantenerte al tanto de las actualizaciones de las NOM y más.</p>
-                <a href="#" class="btn btn--yellow px-5 py-3 m-2">
-                    Cononce más <i class="fa-solid fa-arrow-right mx-1"></i>
+                <a href="<?php echo __ROOT__; ?>landingCursos" class="btn btn--yellow px-5 py-3 m-2">
+                    Conoce más <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
             </div>
         </div>

@@ -2,11 +2,12 @@
 <?php include 'partials/navbar.php'; ?>
 
 <main class="bg--image">
-    <section class="container text-center">
-        <h1 class="text--darkBlue font-weight-bold">Nuestras capacitaciones</h1>
-        <p class="text--gray">Impulsa el cumplimiento normativo con nuestras capacitaciones especializadas de NOM</p>
+    <section class="container text-center py-lg-4">
+        <div class="w-50 mb-5 mx-auto">
+            <h1 class="text--darkBlue font-weight-bold mb-3 long--text">Nuestras capacitaciones</h1>
+            <p class="text--gray">Impulsa el cumplimiento normativo con nuestras capacitaciones especializadas de NOM</p>
+        </div>
         <img class="rounded-lg img-fluid pr-2" src="<?php echo __ROOT__; ?>/public/img/landing/imgCapacitacion.png">
-
     </section>
 
     <section id="ponteContacto" class="container">

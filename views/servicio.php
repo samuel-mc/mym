@@ -38,7 +38,7 @@
                     <img class="rounded-lg img-fluid" src="<?php echo __ROOT__; ?>/public/img/servicio/diagrama.png">
                 </div>
                 <div>
-                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                    <a href="<?php echo __ROOT__; ?>solicitud" class="btn btn--yellow px-5 py-3 m-2">
                         Iniciar solicitud <i class="fa-solid fa-arrow-right mx-1"></i>
                     </a>
                 </div>
@@ -49,7 +49,7 @@
                     <img class="rounded-lg img-fluid" src="<?php echo __ROOT__; ?>/public/img/servicio/diagrama2.png">
                 </div>
                 <div>
-                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                    <a href="<?php echo __ROOT__; ?>solicitud" class="btn btn--yellow px-5 py-3 m-2">
                         Iniciar solicitud <i class="fa-solid fa-arrow-right mx-1"></i>
                     </a>
                 </div>
@@ -70,10 +70,10 @@
             
             <footer class="text-center m-4">
                 <div class="row justify-content-center">
-                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                    <a href="<?php echo __ROOT__; ?>landingNom" class="btn btn--yellow px-5 py-3 m-2">
                         Consulta catálogo de NOMs y NMX <i class="fa-solid fa-arrow-right mx-1"></i>
                     </a>
-                    <a href="#" class="btn btn--yellow px-5 py-3 m-2">
+                    <a href="<?php echo __ROOT__; ?>solicitud" class="btn btn--yellow px-5 py-3 m-2">
                         Iniciar solicitud <i class="fa-solid fa-arrow-right mx-1"></i>
                     </a>
                 </div>

@@ -1,7 +1,7 @@
 <?php include 'partials/header.php'; ?>
 <?php include 'partials/navbar.php'; ?>
 
-<main class="bg--image">
+<main class="bg--image2">
     <section id="beneficiosValor" class="container my-4">
         <div class="text-center">
             <h2 class="text--darkBlue font-weight-bold">Preguntas Frecuentes</h2>
