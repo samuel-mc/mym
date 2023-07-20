@@ -47,7 +47,9 @@
                 </a>
             </div>
             <h2 class="text--gray">(Enviar a tu agente aduanal)</h2>
-            <img class="rounded-lg img-fluid" src="<?php echo __ROOT__; ?>/public/img/general/video.png">
+            <video id="video" controls class="rounded-lg img-fluid">
+                <source src="<?php echo __ROOT__; ?>/public/video/video.mp4" type="video/mp4">
+            </video>
             <div class="text-center mx-2 px-2 mx-lg-5 px-lg-5">
                 <h2 class="bg--mediumBlue px-lg-5 px-2 py-3 my-2 mx-lg-5  mx-2 text--white rounded-lg">
                 ¡Tu validación lista en 24 horas o menos!

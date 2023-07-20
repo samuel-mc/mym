@@ -26,7 +26,7 @@
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>pregutnas">Preguntas frecuentes
+                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>preguntas">Preguntas frecuentes
                     </a>
                 </li>
                 <li class="my-3 mx-3">
