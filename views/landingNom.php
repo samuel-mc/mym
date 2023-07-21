@@ -9,7 +9,7 @@
                     Nom de <br>
                     <span class="text--yellow">seguridad</span>
                 </h2>
-                <a href="#" class="btn btn--transparent px-4 py-3 m-2">
+                <a href="<?php echo __ROOT__; ?>normas" class="btn btn--transparent px-4 py-3 m-2">
                     Conocer más <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
             </div>

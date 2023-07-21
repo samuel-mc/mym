@@ -10,10 +10,10 @@
                     Unidad de <br> 
                     <span class="text--yellow">Inspección</span>
                 </h2>
-                <a href="<?php echo __ROOT__; ?>contacto" class="btn btn--yellow px-4 py-3 m-2">
+                <a href="<?php echo __ROOT__; ?>solicitud" class="btn btn--yellow px-4 py-3 m-2">
                     Empezar solicitud <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
-                <a href="#" class="btn btn--transparent px-4 py-3 m-2">
+                <a href="<?php echo __ROOT__; ?>servicio" class="btn btn--transparent px-4 py-3 m-2">
                     Conocer más <i class="fa-solid fa-arrow-right mx-1"></i>
                 </a>
             </div>

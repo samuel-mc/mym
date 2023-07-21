@@ -1,6 +1,8 @@
 <header class="d-none d-lg-block">
     <div class="container d-flex justify-content-between align-items-center py-3">
-        <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="">
+        <a href="<?php echo __ROOT__; ?>">
+            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="">
+        </a>
         <nav class="navbar__list">
             <ul>
                 <li><a class="a--darkBlue" href="<?php echo __ROOT__; ?>">Inicio</a></li>
@@ -19,7 +21,9 @@
 
 <header class="py-2 px-4 w-full d-lg-none">
     <div class="d-flex justify-content-between">
-        <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="">
+        <a href="<?php echo __ROOT__; ?>">
+            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="">
+        </a>
         <button class="p-2 btn btn-primary btn--darkblue btn--square" onclick="toggleShowMenu()">
             <i class="fa-solid fa-bars"></i>
         </button>

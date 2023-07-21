@@ -20,8 +20,8 @@
     </section>
     <section class="container grid--2cols align-items-center">
         <div class="text--darkBlue p-1 p-lg-5">
-            <h3 class="mb-4">Diseño de etiqueta</h3>
-            <div class="d-flex">
+            <h3 class="mb-4 text-center">Diseño de etiqueta</h3>
+            <div class="d-flex justify-content-center">
                 <div class="mx-4 d-flex flex-column align-items-center">
                     <img src="<?php echo __ROOT__; ?>/public/img/landing/etiquetaText.png">
                     <p class="text--gray my-2">Adherible</p>
