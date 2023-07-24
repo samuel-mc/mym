@@ -15,12 +15,15 @@
                         <img src="<?php echo __ROOT__; ?>/public/img/home/carousel1.png" class="w-100 h-100 of--cover">
                     </li>
                     <li class="splide__slide position-relative">
-                        <div class="position-absolute p-4 text-center">
-                            <h3 class="text--mediumBlue mb-4">Acreditación y aprobación</h3>
-                            <p class="text--mediumBlue text--md mb-2">U.V Marquez y Moncada está <span class="text--yellow">acreditada y aprobada</span> por la ema, la DGN respectivamente.</p>
-                            <p class="text--mediumBlue text--md">Está información se puede verificar mediante el Diario Oficial de la Federación (DOF).</p>
+                        <div class="position-absolute w-100 h-100 d-flex flex-column justify-content-between">
+                            <div class="text-center text--darkBlue p-4">
+                                <h5>Sigue este</h5>
+                                <h2>Consejo</h2>
+                                <h5>para</h5>
+                                <h3>importaciones seguras con unidades aprobadas</h3>
+                            </div>
+                            <img src="<?php echo __ROOT__; ?>/public/img/home/carousel3.png" class="mx-auto w-100">
                         </div>
-                        <img src="<?php echo __ROOT__; ?>/public/img/home/carouselBg.png" class="w-100 h-100">
                     </li>
                     <li class="splide__slide p-4" style="background-color: var(--medium-blue);">
                         <p class="text-white text--md text-center">
@@ -67,17 +70,13 @@
                         <img src="<?php echo __ROOT__; ?>/public/img/home/carouselBg.png" class="w-100">
                     </li>
                     <li class="splide__slide position-relative">
-                        <div class="position-absolute w-100 h-100 d-flex flex-column justify-content-between">
-                            <div class="text-center text--darkBlue p-4">
-                                <h5>Sigue este</h5>
-                                <h2>Consejo</h2>
-                                <h5>para</h5>
-                                <h3>importaciones seguras con unidades aprobadas</h3>
-                            </div>
-                            <img src="<?php echo __ROOT__; ?>/public/img/home/carousel3.png" class="mx-auto w-100">
+                        <div class="position-absolute p-4 text-center">
+                            <h3 class="text--mediumBlue mb-4">Acreditación y aprobación</h3>
+                            <p class="text--mediumBlue text--md mb-2">U.V Marquez y Moncada está <span class="text--yellow">acreditada y aprobada</span> por la ema, la DGN respectivamente.</p>
+                            <p class="text--mediumBlue text--md">Está información se puede verificar mediante el Diario Oficial de la Federación (DOF).</p>
                         </div>
+                        <img src="<?php echo __ROOT__; ?>/public/img/home/carouselBg.png" class="w-100 h-100">
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -96,7 +95,7 @@
     <section class="container-fluid py-5 bg--mediumBlue" id="unidadDeInspeccion">
         <div class="container">
             <header class="text-center text--white mb-5 w--50 mx-auto">
-                <h2 class="fw-bold mb-4">Unidad de inspección</h2>
+                <h2 class="fw-bold mb-4 text--yellow">Unidad de inspección</h2>
                 <p class="text--md">
                     Normas de información comercial
                 </p>

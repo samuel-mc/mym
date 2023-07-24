@@ -46,6 +46,9 @@
         </div>
     </div>
 </footer>
+<div style="margin:0; background-color:#ecf0f1;">
+	<p style="text-align:center; color:#fff; padding:5px; margin:0; font-size: 10px;"><a style="color:#222222; text-decoration:none;" href="https://deskrive.com">Desarrollado por <span style="color: #2ecc71;">Deskrive</span></a></p>
+</div>
 
 </body>
 <script src="<?php echo __ROOT__; ?>/public/js/index.js"></script>

@@ -2,9 +2,9 @@
     <div class="grid--3cols">
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon1.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon1.png" class="mb-3 h--64 w--64">
                 <h4 class="text--darkBlue">NOM-004-SE-2021</h4>
-                <p class="text--gray text-md">Ropa y Textiles</p>
+                <p class="text-dark text-md">Ropa y Textiles</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -15,9 +15,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon2.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon2.png" class="mb-3 h--64 w--64">
                 <h4 class="text--darkBlue">NOM-015-SCFI-2007</h4>
-                <p class="text--gray text-md">Juguetes</p>
+                <p class="text-dark text-md">Juguetes</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -28,9 +28,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon3.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon3.png" class="mb-3 h--64 w--64">
                 <h4 class="text--darkBlue">NOM-020-SCFI-1997</h4>
-                <p class="text--gray text-md">Cueros y pieles</p>
+                <p class="text-dark text-md">Cueros y pieles</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -41,9 +41,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon4.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon4.png" class="mb-3 h--64 w--64">
                 <h4 class="text--darkBlue">NOM-024-SCFI-2013</h4>
-                <p class="text--gray text-md">Electrónica</p>
+                <p class="text-dark text-md">Electrónica</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -54,9 +54,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon5.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon5.png" class="mb-3 h--64 w--64">
                 <h4 class="text--darkBlue">NOM-050-SCFI-2004</h4>
-                <p class="text--gray text-md">Productos generales</p>
+                <p class="text-dark text-md">Productos generales</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -67,9 +67,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon6.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon6.png" class="mb-3 h--64 w--64">
                 <h4 class="text--darkBlue">NOM-051-SCFI/SSA1-2010</h4>
-                <p class="text--gray text-md">Alimentos y bebidas no alcohólicas</p>
+                <p class="text-dark text-md">Alimentos y bebidas no alcohólicas</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -80,9 +80,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon7.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon7.png" class="mb-3 h--64 w--64">
                 <h4 class="text--darkBlue">NOM-141-SSA1/SCFI-2012</h4>
-                <p class="text--gray text-md">Cosméticos</p>
+                <p class="text-dark text-md">Cosméticos</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -93,9 +93,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon8.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon8.png" class="mb-3 h--64 w--64">
                 <h4 class="text--darkBlue">NOM-142-SSA1/SCFI-2014</h4>
-                <p class="text--gray text-md">Bebidas alcohólicas</p>
+                <p class="text-dark text-md">Bebidas alcohólicas</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -106,9 +106,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon9.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/unidadDeInsp/icon9.png" class="mb-3 h--64 w--64">
                 <h4 class="text--darkBlue">NOM-189-SSA1/SCFI-2018</h4>
-                <p class="text--gray text-md">Artículos domésticos</p>
+                <p class="text-dark text-md">Artículos domésticos</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>

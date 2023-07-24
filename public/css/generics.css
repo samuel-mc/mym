@@ -118,6 +118,10 @@
     font-size: var(--text-xl);
 }
 
+.text--start {
+    text-align: start;
+}
+
 .grid--2cols {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -152,6 +156,14 @@
 
 .w--fit {
     width: fit-content;
+}
+
+.w--64 {
+    width: 64px;
+}
+
+.h--64 {
+    height: 64px;
 }
 
 .justify-items--center {

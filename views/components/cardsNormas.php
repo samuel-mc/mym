@@ -2,9 +2,9 @@
     <div class="grid--4cols">
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon1.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon1.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-001-SCFI-2018</h4>
-                <p class="text--gray text-md">Aparatos electrónicos</p>
+                <p class="text-dark text-md">Aparatos electrónicos</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -15,9 +15,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon2.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon2.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-003-SCFI-2014</h4>
-                <p class="text--gray text-md">Productos eléctricos</p>
+                <p class="text-dark text-md">Productos eléctricos</p>
             </div>
             <div class="card__content d-flex align-items-center text-center">
                 <p class="card__title"></p>
@@ -28,9 +28,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon3.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon3.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-016-SCFI-1993</h4>
-                <p class="text--gray text-md">Aparatos de oficina</p>
+                <p class="text-dark text-md">Aparatos de oficina</p>
             </div>
             <div class="card__content d-flex align-items-center text-center">
                 <p class="card__title"></p>
@@ -41,9 +41,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon4.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon4.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-019-SCFI-1998</h4>
-                <p class="text--gray text-md">Procesamiento de datos</p>
+                <p class="text-dark text-md">Procesamiento de datos</p>
             </div>
             <div class="card__content d-flex align-items-center text-center">
                 <p class="card__title"></p>
@@ -56,9 +56,9 @@
     <div class="grid--3cols">
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon5.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon5.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-208-SCFI-2016</h4>
-                <p class="text--gray text-md">Radiocomunicación</p>
+                <p class="text-dark text-md">Radiocomunicación</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -69,9 +69,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon6.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon6.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-030-ENER-2016</h4>
-                <p class="text--gray text-md">Eficiencia luminosa LED</p>
+                <p class="text-dark text-md">Eficiencia luminosa LED</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -82,9 +82,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon7.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon7.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-031-ENER-2019</h4>
-                <p class="text--gray text-md">LED vialidades y exteriores</p>
+                <p class="text-dark text-md">LED vialidades y exteriores</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -95,9 +95,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon8.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon8.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-029-ENER-2017</h4>
-                <p class="text--gray text-md">Luminarios</p>
+                <p class="text-dark text-md">Luminarios</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -108,9 +108,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon9.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon9.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-064-SCFI-2000</h4>
-                <p class="text--gray text-md">Eléctricos-luminarios</p>
+                <p class="text-dark text-md">Eléctricos-luminarios</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>
@@ -121,9 +121,9 @@
         </div>
         <div class="card normas__card p-3">
             <div class="card__front">
-                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon10.png" class="mb-3">
+                <img src="<?php echo __ROOT__; ?>/public/img/normas/icon10.png" class="mb-3 w--64 h--64">
                 <h4 class="text--darkBlue">NOM-186-SSA1/SCFI-2013</h4>
-                <p class="text--gray text-md">Chocolate</p>
+                <p class="text-dark text-md">Chocolate</p>
             </div>
             <div class="card__content d-flex align-items-center">
                 <p class="card__title"></p>

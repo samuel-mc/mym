@@ -61,7 +61,7 @@
     <section class="container-fluid py-4 bg--mediumBlue">
         <div class="container">
             <header class="text-center text--white mb-5 w--50 mx-auto">
-                <h2 class="fw-bold mb-4">Normas Acreditadas</h2>
+                <h2 class="fw-bold mb-4 text--yellow">Normas Acreditadas</h2>
                 <p class="text--sm">
                     At lacus vitae nulla sagittis scelerisque nisl. Pellentesque duis cursus vestibulum, facilisi ac, sed faucibus.
                 </p>
